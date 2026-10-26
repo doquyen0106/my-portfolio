@@ -1,21 +1,55 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trang Web Cá Nhân - Professional Portfolio</title>
-    <meta name="description" content="Trang web giới thiệu bản thân (Portfolio) chuyên nghiệp, hiện đại với Giới thiệu, Kỹ năng, Học vấn & Kinh nghiệm, Liên hệ và công cụ xuất file HTML đơn lẻ." />
-    <meta property="og:title" content="Trang Web Cá Nhân - Professional Portfolio" />
-    <meta property="og:description" content="Trang web giới thiệu bản thân (Portfolio) chuyên nghiệp, hiện đại với Giới thiệu, Kỹ năng, Học vấn & Kinh nghiệm, Liên hệ và công cụ xuất file HTML đơn lẻ." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  </head>
-  <body class="font-sans antialiased text-slate-900 bg-slate-50 selection:bg-indigo-500 selection:text-white">
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hồ Sơ Tiếp Viên Hàng Không</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f7f6; color: #333; }
+        header { background-color: #0d3b66; color: white; text-align: center; padding: 2rem 1rem; }
+        .container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+        .card { background: white; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        h2 { color: #0d3b66; border-bottom: 2px solid #0d3b66; padding-bottom: 0.5rem; }
+        ul { line-height: 1.6; }
+        .contact-btn { display: inline-block; background: #f4d35e; color: #0d3b66; padding: 0.7rem 1.5rem; text-decoration: none; font-weight: bold; border-radius: 5px; }
+    </style>
+</head>
+<body>
 
+<header>
+    <h1>[Lê Thị Đỗ Quyên]</h1>
+    <p>Cabin Crew / Flight Attendant Applicant</p>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h2>Giới Thiệu Bản Thân</h2>
+        <p>Chào bạn! Tôi là một tiếp viên hàng không năng động, chuyên nghiệp với niềm đam mê mang lại trải nghiệm bay an toàn và tuyệt vời cho hành khách.</p>
+    </div>
+
+    <div class="card">
+        <h2>Chỉ Số & Kỹ Năng Nổi Bật</h2>
+        <ul>
+            <li><strong>Ngoại ngữ:</strong> Tiếng Anh (TOEIC 750),</li>
+            <li><strong>Kỹ năng:</strong> Sơ cứu cơ bản (CPR), Quản lý tình huống khẩn cấp, Dịch vụ khách hàng cao cấp</li>
+            <li><strong>Chiều cao:</strong> 1m60 | <strong>Tầm với:</strong> 212 cm</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Kinh Nghiệm Làm Việc</h2>
+        <ul>
+            <li><strong>Chuyên viên Dịch vụ Khách hàng</strong> - Khách sạn ABC (2023 - Nay)</li>
+            <li><strong>Thực tập sinh Lễ tân</strong> - Công ty XYZ (2022 - 2023)</li>
+        </ul>
+    </div>
+
+    <div class="card" style="text-align: center;">
+        <h2>Liên Hệ</h2>
+        <p>Email: email-cua-ban@gmail.com | SĐT: 090x xxx xxx</p>
+        <a href="mailto:email-cua-ban@gmail.com" class="contact-btn">Gửi Email Cho Tôi</a>
+    </div>
+</div>
+
+</body>
+</html>
