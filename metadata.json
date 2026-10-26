@@ -1,0 +1,6 @@
+{
+  "name": "Trang Web Cá Nhân - Professional Portfolio",
+  "description": "Trang web giới thiệu bản thân (Portfolio) chuyên nghiệp, hiện đại với Giới thiệu, Kỹ năng, Học vấn & Kinh nghiệm, Liên hệ và công cụ xuất file HTML đơn lẻ.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
